@@ -29,19 +29,19 @@ class Header extends Component {
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar className="nav ml-auto" >
                             <NavItem >
-                                <NavLink className="nav-link" to='/home' style={{color : "rgb(255,255,255)"}}
+                                <NavLink className="nav-link" to='/coding_monks/home' style={{color : "rgb(255,255,255)"}}
                                 activeStyle={{color : "rgb(0,0,0)"}} > Home</NavLink>
                             </NavItem>
                             <NavItem >
-                                <NavLink className="nav-link" to='/course' style={{color : "rgb(255,255,255)"}}
+                                <NavLink className="nav-link" to='/coding_monks/course' style={{color : "rgb(255,255,255)"}}
                                 activeStyle={{color : "rgb(0,0,0)"}} >Course</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link"  to='/aboutus'style={{color : "rgb(255,255,255)"}}
+                                <NavLink className="nav-link"  to='/coding_monks/aboutus'style={{color : "rgb(255,255,255)"}}
                                 activeStyle={{color : "rgb(0,0,0)"}} >About Us</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to='/contactus'style={{color : "rgb(255,255,255)"}}
+                                <NavLink className="nav-link" to='/coding_monks/contactus'style={{color : "rgb(255,255,255)"}}
                                 activeStyle={{color : "rgb(0,0,0)"}} >Contact Us</NavLink>
                             </NavItem>
                             </Nav>

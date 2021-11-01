@@ -17,11 +17,11 @@ class Main extends Component {
               <Header />
             <div style={{margin:"70px"}}></div>
             <Switch>
-              <Route path='/home' component={Home} />
-              <Route path='/course' component={CourseComponent} />
-              <Route path='/aboutus' component={AboutUs} />
-              <Route path='/contactus' component={Footer} />
-              <Redirect to="/home" />
+              <Route path='/coding_monks/home' component={Home} />
+              <Route path='/coding_monks/course' component={CourseComponent} />
+              <Route path='/coding_monks/aboutus' component={AboutUs} />
+              <Route path='/coding_monks/contactus' component={Footer} />
+              <Redirect to="/coding_monks/home" />
             </Switch>
             <div style={{margin:"70px"}}></div>
             </div>
