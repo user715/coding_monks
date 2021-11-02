@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "623dbcafbb9384ef43dfb6fc6d426f29",
+    "revision": "aa68ce5d7c8bab24654fde4b651f4f1c",
     "url": "/coding_monks/index.html"
   },
   {
-    "revision": "1a450c4f1ba33d2eb4a4",
+    "revision": "7ed8dc5ef7a472f6fb6d",
     "url": "/coding_monks/static/css/2.f82b39a3.chunk.css"
   },
   {
-    "revision": "8a3ce0eceffa14db6988",
-    "url": "/coding_monks/static/css/main.b0aed7c4.chunk.css"
+    "revision": "8db04397f297fcddac6f",
+    "url": "/coding_monks/static/css/main.6ffd8788.chunk.css"
   },
   {
-    "revision": "1a450c4f1ba33d2eb4a4",
-    "url": "/coding_monks/static/js/2.22adf320.chunk.js"
+    "revision": "7ed8dc5ef7a472f6fb6d",
+    "url": "/coding_monks/static/js/2.1d87eb1f.chunk.js"
   },
   {
     "revision": "1c0976d7ba9e8390a967350ca889a860",
-    "url": "/coding_monks/static/js/2.22adf320.chunk.js.LICENSE.txt"
+    "url": "/coding_monks/static/js/2.1d87eb1f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e6bb8d8c3206fa22b347",
-    "url": "/coding_monks/static/js/3.dde00f4f.chunk.js"
+    "revision": "b22d5863af8b67ad273c",
+    "url": "/coding_monks/static/js/3.cbd3bcc6.chunk.js"
   },
   {
-    "revision": "8a3ce0eceffa14db6988",
-    "url": "/coding_monks/static/js/main.91384a99.chunk.js"
+    "revision": "8db04397f297fcddac6f",
+    "url": "/coding_monks/static/js/main.1437a1b1.chunk.js"
   },
   {
-    "revision": "cbf9a83b8a22d1a8503b",
-    "url": "/coding_monks/static/js/runtime-main.c3412bc4.js"
+    "revision": "156a41d7ccb6645743d8",
+    "url": "/coding_monks/static/js/runtime-main.a87c09fa.js"
   },
   {
     "revision": "6f2afe5c606318a9a79c01409b458fb7",
@@ -86,6 +86,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2c773185b4ca69f62b9c8703feb91cee",
     "url": "/coding_monks/static/media/oracle-6.2c773185.svg"
+  },
+  {
+    "revision": "0ea85bdd3202633ddb83bf3c129f0f00",
+    "url": "/coding_monks/static/media/r1.0ea85bdd.jpeg"
+  },
+  {
+    "revision": "f43515bde29200eb3b9048f69fafc3ce",
+    "url": "/coding_monks/static/media/r2.f43515bd.jpeg"
+  },
+  {
+    "revision": "d6f7eb011b7b176c84c87391db43e928",
+    "url": "/coding_monks/static/media/r3.d6f7eb01.jpeg"
   },
   {
     "revision": "1bbc2261f4a83b7c155f522b6c8d929e",
