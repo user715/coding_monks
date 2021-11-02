@@ -3,8 +3,9 @@ import DashboardIntro from './DashboardIntro'
 import Achievements from './Companies'
 import './Style.css'
 import Courses from './Courses'
-import Footer from './footer'
-import Expereinces from './Experiences'
+import Contact from './ContactUs'
+//import Expereinces from './Experiences'
+import StudentReviews from './StudentReviewsComponent'
 
 function Dashboard() {
     
@@ -20,9 +21,9 @@ function Dashboard() {
 
             <DashboardIntro/>
             <Achievements />
-            <Expereinces/>
+            <StudentReviews />
             <Courses />
-            <Footer />
+            <Contact />
         </div>
     )
 }

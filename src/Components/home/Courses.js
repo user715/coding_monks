@@ -19,8 +19,8 @@ const bull = (
   
    function BasicCard() {
     return (
-      <Card sx={{ minWidth: 275 }}>
-        <CardContent>
+      <Card sx={{ minWidth: 275 }} style={{backgroundColor:"rgb(230,230,230)"}}>
+        <CardContent style={{margin:"10px"}}>
           {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
             Word of the Day
           </Typography> */}
@@ -41,7 +41,7 @@ const bull = (
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">Learn More</Button>
+          <Button size="small" href="/coding_monks/course">Learn More</Button>
         </CardActions>
       </Card>
     );
@@ -54,13 +54,12 @@ function Courses(){
 
     return(
         <div>
-        <div className='Courses'>
-            <br/>
-            <br/>
-            <span className='course-title'>Courses</span>
+          <h3 className='course-title'>Courses</h3>
+          <div className='Courses row'>
             
-            <div className="Course">
-        <BasicCard></BasicCard>
+            
+            <div className="Course col-12 col-sm-8 col-md-6 col-lg-4" style={{margin:"30px auto"}}>
+              <BasicCard/>
             </div>
         </div>
         </div>

@@ -18,18 +18,17 @@ function Companies(){
         <div className='Companies' id="about">
             <br/>
             <div  class='companies-heading'>Our last batch placement Highlights</div>
-            <div  className="company-grid">
-                <div><img style={{maxWidth:130,margin:30}}  src={gs} alt="" /></div>
-                <div><img style={{maxWidth:130,margin:30}}src={curefit} alt="" /></div>
-                <div><img style={{maxWidth:130,margin:30}}src={adobe} alt="" /></div>
-                <div><img style={{maxWidth:130,margin:30}}src={qualcom} alt="" /></div>
-                <div><img style={{maxWidth:130,margin:30}}src={amazon} alt="" /></div>
-            </div>
-            <div className="company-grid-2">
-                <div><img style={{maxWidth:130,margin:30}}src={microsoft} alt="" /></div>
-                <div><img style={{maxWidth:130,margin:30}}src={oracle} alt="" /></div>
-                <div><img style={{maxWidth:130,margin:30}}src={samsung} alt="" /></div>
-                <div><img style={{maxWidth:130,margin:30}}src={morgan} alt="" /></div>
+            <div  className="company-grid row justify-content-around" style={{margin:"auto"}}>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2"><img style={{maxWidth:130,margin:30}}  src={gs} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3"><img style={{maxWidth:130,margin:30}}src={curefit} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2"><img style={{maxWidth:130,margin:30}}src={adobe} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3"><img style={{maxWidth:130,margin:30}}src={qualcom} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2"><img style={{maxWidth:130,margin:30}}src={amazon} alt="" /></div>
+            
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2"><img style={{maxWidth:130,margin:30}}src={microsoft} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2"><img style={{maxWidth:130,margin:30}}src={oracle} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2"><img style={{maxWidth:130,margin:30}}src={samsung} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2"><img style={{maxWidth:130,margin:30}}src={morgan} alt="" /></div>
             </div>
         </div>
         </div>
