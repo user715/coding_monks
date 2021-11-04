@@ -1,71 +1,62 @@
 import React from 'react';
-import Box from '@material-ui/core/Box';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
+import { Button } from 'reactstrap';
+import { CoursePoints } from '../../data/coursePagePoints';
 
+function Point({point}) {
+  return(
+    <div className="row" style={{margin:"20px 0px"}}>
+      <div className="col-2 col-sm-1" style={{padding:0,margin:0}}>
+        <img src={point.image} width="100%"/>
+      </div>
 
-
-const bull = (
-    <Box
-      component="span"
-      sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
-    >
-      •
-    </Box>
+      <p className="col-10">
+        {point.description}
+      </p>
+    </div>
   );
-  
-   function BasicCard() {
-    return (
-      <Card sx={{ minWidth: 275 }} style={{backgroundColor:"rgb(230,230,230)"}}>
-        <CardContent style={{margin:"10px"}}>
-          {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-            Word of the Day
-          </Typography> */}
-          <Typography variant="h6" component="div">
-            DSA Interview Ready Course
-          </Typography>
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
-            Intermidiate
-          </Typography>
-          <Typography variant="body2">
-          <ul>
-  <li>Data Structures</li>
-  <li>Algorithms</li>
-  <li>Dynamic Programing</li>
-  <li>OOP</li>
-  <li>DBMS</li>
-</ul>
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <Button size="small" href="/coding_monks/course">Learn More</Button>
-        </CardActions>
-      </Card>
-    );
-  }
-
-
+}
 
 
 function Courses(){
 
+  const points=CoursePoints.map((point) => {
+    return <Point point={point} />
+  });
+
     return(
-        <div>
-          <h3 className='course-title'>Courses</h3>
+        <div className="col-10" style={{margin:"10px auto 100px auto"}}>
+          <h3 className='course-title' style={{textAlign:"center",marginBottom:"50px"}}>CODING MONKS INTERVIEW READY COURSE</h3>
           <div className='Courses row'>
-            
-            
-            <div className="Course col-12 col-sm-8 col-md-6 col-lg-4" style={{margin:"30px auto"}}>
-              <BasicCard/>
+
+            <div className="col-12 col-md-7" style={{padding:0}}>
+                {points}
+                <div className="row" style={{margin:"20px 0px"}}>
+                  <p>
+                    <span><a href="/coding_monks/course">Know more </a></span> about course. 
+                  </p>
+                </div>
             </div>
+            
+            <div className="col-12 col-md-5 ">
+              <div>
+              <img src=".." alt='poster for course' style={{margin:"20px 10px",padding:0}} width="100%"/>
+
+                <div className="row" style={{margin:"20px 0px"}}>
+                  <p className="col-8 d-flex align-items-center" style={{padding:0,margin:0}}>Join our Telegram channel to Enroll :</p>
+                  <Button className="col-4 align-self-end" 
+                  style={{}}
+                   href="/coding_monks"
+                  >Join Us</Button>
+                </div>
+                
+                </div>
+            </div>
+
         </div>
         </div>
     )
 }
 
- 
+ //<img src={require("../images/coursepage/course-1.jpg")} style={{margin:"20px 10px",padding:0}} width="100%"/>
 
 export default Courses;

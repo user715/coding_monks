@@ -14,23 +14,21 @@ import amazon from  '../../Images/amazon-9538.svg'
 function Companies(){
 
     return(
-        <div>
-        <div className='Companies' id="about">
+        <div className='Companies' id="about" style={{margin:"70px"}}>
             <br/>
-            <div  class='companies-heading'>Our last batch placement Highlights</div>
+            <p  className='companies-heading text-responsive' style={{textAlign:"center",marginBottom:"40px"}}>Our last batch placement Highlights</p>
             <div  className="company-grid row justify-content-around" style={{margin:"auto"}}>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-2"><img style={{maxWidth:130,margin:30}}  src={gs} alt="" /></div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-3"><img style={{maxWidth:130,margin:30}}src={curefit} alt="" /></div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-2"><img style={{maxWidth:130,margin:30}}src={adobe} alt="" /></div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-3"><img style={{maxWidth:130,margin:30}}src={qualcom} alt="" /></div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-2"><img style={{maxWidth:130,margin:30}}src={amazon} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2" style={{padding:"0px"}}><img style={{maxWidth:130,margin:"20px 0px"}} width="100%"  src={gs} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3" style={{padding:"0px"}}><img style={{maxWidth:130,margin:"20px 0px"}} width="100%" src={curefit} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2" style={{padding:"0px"}}><img style={{maxWidth:130,margin:"20px 0px"}} width="100%" src={adobe} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3" style={{padding:"0px"}}><img style={{maxWidth:130,margin:"20px 0px"}} width="100%" src={qualcom} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2" style={{padding:"0px"}}><img style={{maxWidth:130,margin:"20px 0px"}} width="100%" src={amazon} alt="" /></div>
             
-                <div className="col-6 col-sm-4 col-md-3 col-lg-2"><img style={{maxWidth:130,margin:30}}src={microsoft} alt="" /></div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-2"><img style={{maxWidth:130,margin:30}}src={oracle} alt="" /></div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-2"><img style={{maxWidth:130,margin:30}}src={samsung} alt="" /></div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-2"><img style={{maxWidth:130,margin:30}}src={morgan} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2" style={{padding:"0px"}}><img style={{maxWidth:130,margin:"20px 0px"}} width="100%" src={microsoft} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2" style={{padding:"0px"}}><img style={{maxWidth:130,margin:"20px 0px"}} width="100%" src={oracle} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2" style={{padding:"0px"}}><img style={{maxWidth:130,margin:"20px 0px"}} width="100%" src={samsung} alt="" /></div>
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2" style={{padding:"0px"}}><img style={{maxWidth:130,margin:"20px 0px"}} width="100%" src={morgan} alt="" /></div>
             </div>
-        </div>
         </div>
     )
 }

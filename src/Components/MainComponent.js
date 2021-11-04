@@ -20,10 +20,9 @@ class Main extends Component {
               <Route path='/coding_monks/home' component={Home} />
               <Route path='/coding_monks/course' component={CourseComponent} />
               <Route path='/coding_monks/aboutus' component={AboutUs} />
-              <Route path='/coding_monks/contactus' component={Contact} />
               <Redirect to="/coding_monks/home" />
             </Switch>
-            <div style={{margin:"70px"}}></div>
+            <Contact />
             </div>
         );
       }

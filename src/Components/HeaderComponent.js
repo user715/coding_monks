@@ -1,7 +1,7 @@
 import {Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import React,{Component} from 'react';
-
+import logo from "../Images/logo.png";
 class Header extends Component {
     constructor(props) {
         super(props);
@@ -22,10 +22,14 @@ class Header extends Component {
         
         return(
             <div>
+                
+              
+              <br/>
                 <Navbar dark fixed="top" expand="sm">
                     <div className="container-fluid">
                         <NavbarToggler onClick={this.toggleNav} />
-                        <NavbarBrand className="mr-auto" style={{marginright : "10px"}} href="/">Codingmonks</NavbarBrand>
+                        <NavbarBrand className="mr-auto" style={{marginright : "10px"}} href="/">
+                        <img src={logo} alt="logo" width="70px"/>Codingmonks</NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar className="nav ml-auto" >
                             <NavItem >
@@ -39,10 +43,6 @@ class Header extends Component {
                             <NavItem>
                                 <NavLink className="nav-link"  to='/coding_monks/aboutus'style={{color : "rgb(255,255,255)"}}
                                 activeStyle={{color : "rgb(0,0,0)"}} >About Us</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink className="nav-link" to='/coding_monks/contactus'style={{color : "rgb(255,255,255)"}}
-                                activeStyle={{color : "rgb(0,0,0)"}} >Contact Us</NavLink>
                             </NavItem>
                             </Nav>
                         </Collapse>

@@ -3,7 +3,6 @@ import DashboardIntro from './DashboardIntro'
 import Achievements from './Companies'
 import './Style.css'
 import Courses from './Courses'
-import Contact from './ContactUs'
 //import Expereinces from './Experiences'
 import StudentReviews from './StudentReviewsComponent'
 
@@ -19,11 +18,10 @@ function Dashboard() {
             </ul> */}
 
 
-            <DashboardIntro/>
+            <DashboardIntro />
             <Achievements />
             <StudentReviews />
             <Courses />
-            <Contact />
         </div>
     )
 }

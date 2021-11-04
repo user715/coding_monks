@@ -106,7 +106,7 @@ class StudentReviews extends React.Component{
   render(){
 
     return(
-    <div className="row justify-content-center d-flex align-items-stretch" style={{backgroundColor:"rgb(114, 133, 151)"}} id="reviewSlider">
+    <div className="row justify-content-center d-flex align-items-stretch" style={{backgroundColor:"rgb(114, 133, 151)",margin:"100px 0px"}} id="reviewSlider">
       <div className="col-1 d-flex align-items-center" style={{padding:"0px"}}>
         <img className="SliderControls" style={{margin:"auto",height:"40px",width:"20px"}} src={require("../images/leftarrow.png")} alt="prev" onClick={this.prev}/>
       </div>

@@ -14,16 +14,16 @@ function Benefits()
             <h1 className="text-responsive">Complete DSA to ace Interviews at top tech companies</h1>
         </div>
         <div className="col-12 col-md-6" style={{ padding: "30px"}}>
-            <img src={require("./images/dsaimg.png")} width="100%" alt="DSA img"/>
+            <img src={require("./images/coursepage/course-1.jpg")} width="100%" alt="DSA img"/>
         </div>
     </div>
         {/* 3 month live + doubt  */}
         <div className="col-10 row d-flex flex-row-reverse" style={{margin: "30px auto"}}>
             <div className="col-12 col-md-6" style={{padding: "30px"}}>
-                <h1 className="text-responsive"> 3- month course with Live class and Doubt sessions </h1>
+                <h1 className="text-responsive"> 4- month course with Live class and Doubt sessions </h1>
             </div>
             <div className="col-12 col-md-6" style={{ padding: "30px"}}>
-                <img src={require("./images/liveclass.jpg")}  width="100%" alt="DSA img"/>
+                <img src={require("./images/coursepage/course-2.jpg")}  width="100%" alt="DSA img"/>
             </div>
         </div>
         {/*  weekly problem solving  */}
@@ -32,7 +32,7 @@ function Benefits()
                 <h1 className="text-responsive">Everyweek problem solving with leetcode</h1>
             </div>
             <div className="col-12 col-md-6" style={{padding: "30px"}}>
-                <img src={require("./images/cod.jpg")} width="100%" alt="DSA img"/>
+                <img src={require("./images/coursepage/course-3.jpg")} width="100%" alt="DSA img"/>
             </div>
         </div>
         </div>
