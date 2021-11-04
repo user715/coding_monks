@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bee6eed20027c71f0c6aaaaf1a606619",
+    "revision": "8b6d95c0109dacde3ad7352f003ffcac",
     "url": "/coding_monks/index.html"
   },
   {
-    "revision": "7ed8dc5ef7a472f6fb6d",
+    "revision": "929c372d758d719721b9",
     "url": "/coding_monks/static/css/2.f82b39a3.chunk.css"
   },
   {
-    "revision": "45d40df86a09256c8dc8",
-    "url": "/coding_monks/static/css/main.6ffd8788.chunk.css"
+    "revision": "2879782105d24a6064cb",
+    "url": "/coding_monks/static/css/main.c66bab4f.chunk.css"
   },
   {
-    "revision": "7ed8dc5ef7a472f6fb6d",
-    "url": "/coding_monks/static/js/2.1d87eb1f.chunk.js"
+    "revision": "929c372d758d719721b9",
+    "url": "/coding_monks/static/js/2.e76018f9.chunk.js"
   },
   {
-    "revision": "1c0976d7ba9e8390a967350ca889a860",
-    "url": "/coding_monks/static/js/2.1d87eb1f.chunk.js.LICENSE.txt"
+    "revision": "6d1c2bc9c130665022fd05ad12bdb1f5",
+    "url": "/coding_monks/static/js/2.e76018f9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b22d5863af8b67ad273c",
-    "url": "/coding_monks/static/js/3.cbd3bcc6.chunk.js"
+    "revision": "0585543a1cccedcb33fb",
+    "url": "/coding_monks/static/js/3.99dc896f.chunk.js"
   },
   {
-    "revision": "45d40df86a09256c8dc8",
-    "url": "/coding_monks/static/js/main.58dc74a7.chunk.js"
+    "revision": "2879782105d24a6064cb",
+    "url": "/coding_monks/static/js/main.cfdfbb5d.chunk.js"
   },
   {
-    "revision": "156a41d7ccb6645743d8",
-    "url": "/coding_monks/static/js/runtime-main.a87c09fa.js"
+    "revision": "fb9a9db19886bc286e11",
+    "url": "/coding_monks/static/js/runtime-main.ddebab01.js"
   },
   {
     "revision": "6f2afe5c606318a9a79c01409b458fb7",
@@ -52,16 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coding_monks/static/media/amazon-9538.96c7f892.svg"
   },
   {
+    "revision": "ea65a46caa5d53666478ce2b410bcddd",
+    "url": "/coding_monks/static/media/course-1.ea65a46c.jpg"
+  },
+  {
+    "revision": "4ffa3d88c983c898f9d2336150a95402",
+    "url": "/coding_monks/static/media/course-2.4ffa3d88.jpg"
+  },
+  {
+    "revision": "43ff6941bdc9f2288ea5ebdefdd209eb",
+    "url": "/coding_monks/static/media/course-3.43ff6941.jpg"
+  },
+  {
     "revision": "5a71816ef38ac7f7b82048ca6bd3b42a",
     "url": "/coding_monks/static/media/curefit.5a71816e.png"
-  },
-  {
-    "revision": "ae4adbc8a072cc82d227b8d2341927d3",
-    "url": "/coding_monks/static/media/download.ae4adbc8.jfif"
-  },
-  {
-    "revision": "92eccd039763e842ed6529a34476af29",
-    "url": "/coding_monks/static/media/dsaimg.92eccd03.png"
   },
   {
     "revision": "290e5868c9ddd23e7210de5f5d8000a1",
@@ -78,6 +82,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4bcc0c16b85a4b2bae7d5bf5122e0ab7",
     "url": "/coding_monks/static/media/jp-morgan.4bcc0c16.svg"
+  },
+  {
+    "revision": "b857c55e1a144aa57badbbca09eedb3d",
+    "url": "/coding_monks/static/media/logo.b857c55e.png"
+  },
+  {
+    "revision": "177c5fc23b1515ea8dc60b23ff9e18ce",
+    "url": "/coding_monks/static/media/loss.177c5fc2.png"
   },
   {
     "revision": "48a1d5666a03af3eeab241e5adcf1470",
